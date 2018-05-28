@@ -22,8 +22,12 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var someArray = [];
+  var i = 0;
   do{
+    someArray[i] = "I love the Beatles!"
+    i++
     
-    
-  }
+  }while(i<= number && number < 15 )
+  
+  return someArray;
 }
